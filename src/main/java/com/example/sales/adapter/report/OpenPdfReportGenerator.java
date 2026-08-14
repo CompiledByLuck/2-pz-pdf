@@ -167,7 +167,7 @@ public class OpenPdfReportGenerator implements ReportGenerator {
         doc.add(Chunk.NEWLINE);
     }
 
-    /** Проста горизонтальна діаграма-стовпчики по регіонах (bonus). */
+    /** Проста горизонтальна діаграма-стовпчики по регіонах (bonus).. */
     private PdfPTable barChart(Map<String, BigDecimal> byRegion, BigDecimal total, Font labelFont, Font valueFont) {
         PdfPTable chart = new PdfPTable(new float[]{3, 7});
         chart.setWidthPercentage(100);
